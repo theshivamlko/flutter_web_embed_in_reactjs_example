@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d80e10f-506b-42e9-8c24-ce12601bf9e0" name="Changes" comment="save stream">
+    <list default="true" id="6d80e10f-506b-42e9-8c24-ce12601bf9e0" name="Changes" comment="flutter to react working">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/flutter_bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/public/flutter_bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/flutter_service_worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/public/flutter_service_worker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/main.dart.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/public/main.dart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/main.dart.js_1.part.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/public/main.dart.js_1.part.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/main.dart.js_2.part.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/public/main.dart.js_2.part.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/main.dart.js_3.part.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/public/main.dart.js_3.part.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/main.dart.js_4.part.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/public/main.dart.js_4.part.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +36,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="temp" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,7 +67,7 @@
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;38391a0c&quot;,
     &quot;io.flutter.reload.alreadyRun&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/shivam/WebProjects/flutter_web_in_reactjs/my-app/public&quot;,
