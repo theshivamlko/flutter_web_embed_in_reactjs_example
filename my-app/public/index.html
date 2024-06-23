@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+
+    <style>
+      table {
+   width: 100%; /* Ensure the table takes the full width */
+   height: 100vh; /* Make the table take the full viewport height */
+   table-layout: fixed; /* Distribute column widths equally */
+ }
+
+ td {
+   width: 50%;  /* Each cell gets 50% width */
+   height: 100%; /* Ensure cells take the full table height */
+   vertical-align: top;
+ }
+
+ #flutter_host,
+ #root {
+   height: 100%; /* Make the divs fill the cell height */
+ }
+    </style>
+    
+    <script src="flutter.js" type="application/javascript" defer></script>
+
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <table>
+     <tr>
+        <td rowspan="1">
+            <div id="root"></div>
+        </td>
+        <td rowspan="1">
+            <div id="flutter_host" >Loading...</div>
+        </td>
+     </tr>
+
+    </table>
+
+
+    <script>
+        window.addEventListener("load", function (ev) {
+            console.log("iniside load");
+            _flutter.loader.loadEntrypoint({
+
+                //   entrypoint: "%PUBLIC_URL%/web/main.dart.js",
+                serviceWorker: {
+                    //   serviceWorkerVersion: serviceWorkerVersion,
+                    // Updated: Specify the correct path to the service worker file
+                    // serviceWorkerUrl: "%PUBLIC_URL%/web/flutter_service_worker.js?v=",
+                },
+                onEntrypointLoaded: async function(engineInitializer) {
+                    let appRunner = await engineInitializer.initializeEngine({
+                        // Pass a reference to "div#flutter_host" into the Flutter engine.
+                        hostElement: document.querySelector("#flutter_host")
+                    });
+                    console.log("flutter_host");
+                    await appRunner.runApp();
+                }
+            });
+        });
+    </script>
+    
+
+
+  </body>
+</html>
