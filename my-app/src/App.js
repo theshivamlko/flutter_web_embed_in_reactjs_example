@@ -7,7 +7,7 @@ function App() {
     const handleInputChange = (event) => {
       const newValue = event.target.value;
       setInput(newValue); // Update the input state
-      functionName(newValue); // Call your external function
+      sendFromReactToFlutter(newValue); // Call your external function
     };
 
   return (
