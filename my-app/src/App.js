@@ -3,6 +3,13 @@ import './App.css';
 import {useState} from 'react';
 function App() {
   const [input,setInput]=useState("")
+
+    const handleInputChange = (event) => {
+      const newValue = event.target.value;
+      setInput(newValue); // Update the input state
+      functionName(newValue); // Call your external function
+    };
+
   return (
     <div className="App">
       <header className="App-header">
@@ -13,7 +20,7 @@ function App() {
 
         <div>
           <input name='name' placeholder='Content'
-          onChange={(e)=>setInput(e.target.value)}/>
+         onChange={handleInputChange}  />
           <p>{input}</p>
         </div>
       </header>
