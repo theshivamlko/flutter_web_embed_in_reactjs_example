@@ -13,5 +13,6 @@ During development you can automate these commands, Follow Steps:
 4. Now convert `lib/web/jsScript.dart` to `my-app/public/jsScript.dart`
 5. Run command in `flutterapp` folder, `dart compile js -o ../my-app/public/jsScript.js lib/web/jsScript.dart`
 6. Now lets start our app
-7. Open `my-app` in terminal launch reactjs app using `npm start`
+7. Open `my-app` in terminal install dependencies `npm install`
+8. Launch reactjs app using `npm start`
 
