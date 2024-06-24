@@ -4,15 +4,14 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+React app is the starting point, first create a build of Flutter Web and include this in React app. ReactJs and Flutter env be pre installed before proceeding.
+During development you can automate these commands, Follow Steps:
 
-A few resources to get you started if this is your first Flutter project:
+1. Open `flutterapp` in terminal
+2. Run command `flutter build web`
+3. Copy content of folder `build/web` and Paste in `my-app/public`
+4. Now convert `lib/web/jsScript.dart` to `my-app/public/jsScript.dart`
+5. Run command in `flutterapp` folder, `dart compile js -o ../my-app/public/jsScript.js lib/web/jsScript.dart`
+6. Now lets start our app
+7. Open `my-app` in terminal launch reactjs app using `npm start`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# flutter_web_in_reactjs
-# flutter_web_in_reactjs

@@ -1,7 +1,10 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-build
+
 .dart_tool
 pubspec.lock
-
-
+flutterapp/.dart_tool
+flutterapp/pubspec.lock
+.vscode
+.idea
+.idea/workspace.xml
