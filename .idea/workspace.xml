@@ -6,6 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="6d80e10f-506b-42e9-8c24-ce12601bf9e0" name="Changes" comment="flutter to react working">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/flutter_bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/public/flutter_bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/flutter_service_worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/public/flutter_service_worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/main.dart.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/public/main.dart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/main.dart.js_1.part.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/public/main.dart.js_1.part.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/main.dart.js_2.part.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/public/main.dart.js_2.part.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/main.dart.js_3.part.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/public/main.dart.js_3.part.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/main.dart.js_4.part.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/public/main.dart.js_4.part.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,10 +78,15 @@
     "git-widget-placeholder": "main",
     "io.flutter.reload.alreadyRun": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/shivam/WebProjects/flutter_web_embed_in_reactjs_example",
+    "last_opened_file_path": "/Users/shivam/WebProjects/flutter_web_embed_in_reactjs_example/my-app/public",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "dart.settings",
     "show.migrate.to.gradle.popup": "false",
+    "ts.external.directory.path": "/Users/shivam/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -106,7 +120,7 @@
       <option name="presentableId" value="Default" />
       <updated>1717935368117</updated>
       <workItem from="1735326291554" duration="226000" />
-      <workItem from="1735326575467" duration="36000" />
+      <workItem from="1735326575467" duration="3806000" />
     </task>
     <task id="LOCAL-00001" summary="readme">
       <option name="closed" value="true" />
@@ -140,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719158070292</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="flutter to react working">
+      <option name="closed" value="true" />
+      <created>1735326774457</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1735326774457</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +190,7 @@
     <MESSAGE value="readme" />
     <MESSAGE value="save" />
     <MESSAGE value="save stream" />
-    <option name="LAST_COMMIT_MESSAGE" value="save stream" />
+    <MESSAGE value="flutter to react working" />
+    <option name="LAST_COMMIT_MESSAGE" value="flutter to react working" />
   </component>
 </project>

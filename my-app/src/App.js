@@ -1,6 +1,6 @@
 import logo from './logo.svg';
- 
-import './App.css'; 
+
+import './App.css';
 import  { useEffect } from 'react'
 
 import {useState} from 'react';
@@ -15,18 +15,18 @@ function App() {
       functionName(newValue); // Call your external function
     };
 
-   
+
   useEffect(() => {
     // Callback function to receive messages from Flutter
     const receiveMessage = (receivedMessage) => {
       console.log("Received message from Flutter:", receivedMessage);
       setOutput(receivedMessage);
- 
+
     };
 
     // Assign the callback function to the global object
-    window.flutterToReact = receiveMessage;  
-  }, []); 
+    window.flutterToReact = receiveMessage;
+  }, []);
 
     const newStyles = {
       width: '100%', // New style
@@ -43,15 +43,19 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Enter Message.
+          Enter Message
         </p>
 
-        <div>
-          <input name='name' placeholder='Enter Message' 
-         
+
+          <input name='name' placeholder='Enter Message' className={"my-input"} style={{
+            width:500,
+            marginLeft:100,
+            marginRight:100
+          }}
+
          onChange={handleInputChange}  />
           <p>{output}</p>
-        </div>
+
       </header>
     </div>
   );
@@ -66,6 +70,6 @@ function App() {
 //   border: '1px solid #ccc',
 //   borderRadius: '4px',
 //   boxSizing: 'border-box'
-// }} 
+// }}
 
 export default App;

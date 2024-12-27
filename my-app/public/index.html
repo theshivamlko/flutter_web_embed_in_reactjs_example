@@ -28,31 +28,31 @@
 
   <style>
     table {
- width: 100%; /* Ensure the table takes the full width */
- height: 100vh; /* Make the table take the full viewport height */
- table-layout: fixed; /* Distribute column widths equally */
-}
+      width: 100%; /* Ensure the table takes the full width */
+      height: 100vh; /* Make the table take the full viewport height */
+      table-layout: fixed; /* Distribute column widths equally */
+    }
 
-td {
- width: 50%;  /* Each cell gets 50% width */
- height: 100%; /* Ensure cells take the full table height */
- vertical-align: top;
-}
+    td {
+      width: 50%;  /* Each cell gets 50% width */
+      height: 100%; /* Ensure cells take the full table height */
+      vertical-align: top;
+    }
 
-#flutter_host,
-#root {
- height: 100%; /* Make the divs fill the cell height */
-}
+    #flutter_host,
+    #root {
+      height: 100%; /* Make the divs fill the cell height */
+    }
 
-.my-input  {
-  width: '100%';
-  padding: '12px 20px';
-  margin: '8px 0';
-  display: 'inline-block';
-  border: '1px solid #ccc';
-  borderRadius: '4px';
-  boxSizing: 'border-box'
-}
+    .my-input {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
   </style>
 
   <script src="flutter.js" type="application/javascript" defer></script>
@@ -76,24 +76,24 @@ td {
 
 <script>
   window.addEventListener("load", function (ev) {
-      console.log("iniside load");
-      _flutter.loader.loadEntrypoint({
+    console.log("iniside load");
+    _flutter.loader.loadEntrypoint({
 
-          //   entrypoint: "%PUBLIC_URL%/web/main.dart.js",
-          serviceWorker: {
-              //   serviceWorkerVersion: serviceWorkerVersion,
-              // Updated: Specify the correct path to the service worker file
-              // serviceWorkerUrl: "%PUBLIC_URL%/web/flutter_service_worker.js?v=",
-          },
-          onEntrypointLoaded: async function(engineInitializer) {
-              let appRunner = await engineInitializer.initializeEngine({
-                  // Pass a reference to "div#flutter_host" into the Flutter engine.
-                  hostElement: document.querySelector("#flutter_host")
-              });
-              console.log("flutter_host");
-              await appRunner.runApp();
-          }
-      });
+      //   entrypoint: "%PUBLIC_URL%/web/main.dart.js",
+      serviceWorker: {
+        //   serviceWorkerVersion: serviceWorkerVersion,
+        // Updated: Specify the correct path to the service worker file
+        // serviceWorkerUrl: "%PUBLIC_URL%/web/flutter_service_worker.js?v=",
+      },
+      onEntrypointLoaded: async function(engineInitializer) {
+        let appRunner = await engineInitializer.initializeEngine({
+          // Pass a reference to "div#flutter_host" into the Flutter engine.
+          hostElement: document.querySelector("#flutter_host")
+        });
+        console.log("flutter_host");
+        await appRunner.runApp();
+      }
+    });
   });
 </script>
 
